@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00C21C1C"
+    tools:context=".RegisterForm">
+
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/register2" />
+
+    <EditText
+        android:id="@+id/firstnameview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="166dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/first_name2"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/lastnameview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/last_name2"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/usernameview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/choose_a_username2"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/emailview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/e_mail2"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/passwordview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/password2"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/passwordwarningtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="32dp"
+        android:accessibilityLiveRegion="polite"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/minimum_8_charachters" />
+
+    <EditText
+        android:id="@+id/phonenumberview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:ems="10"
+        android:hint="@string/phone_number2"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-medium">
+
+        <RadioButton
+            android:id="@+id/maleradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male2" />
+
+        <RadioButton
+            android:id="@+id/femaleradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female2" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/gendertextvi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/gender2"
+        android:textSize="24sp" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">User Management</string>
+    <string name="login_page1">Login</string>
+    <string name="password1">Password</string>
+    <string name="username1">Username</string>
+    <string name="sign_up1">Sign Up</string>
+    <string name="login1">Login</string>
+    <string name="first_name2">First name</string>
+    <string name="last_name27">Last name</string>
+    <string name="choose_your_username2">Choose your Username</string>
+    <string name="male2">Male</string>
+    <string name="female2">Female</string>
+    <string name="gender2">Gender</string>
+    <string name="register2">Register</string>
+    <string name="password2">Password</string>
+    <string name="e_mail2">E-mail</string>
+    <string name="phone_number2">Phone_number</string>
+    <string name="choose_a_username2">Choose a username</string>
+    <string name="last_name2">Last name</string>
+    <string name="minimum_8_charachters">minimum 8 charachters</string>
+    <string name="log_out3">log out</string>
+</resources>

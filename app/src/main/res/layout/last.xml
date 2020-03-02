@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".DetailUsers"
+    android:id="@+id/last">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/checksign_background"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <GridLayout
+                android:layout_width="192dp"
+                android:layout_height="246dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/first_name2"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_name2"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username1"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_mail2"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_number2"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender2"
+                    android:textSize="15dp" />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date created"
+                    android:textSize="15dp" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fname3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/lname3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/username3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/email3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/phonenumber3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/gender3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView"
+                    android:textSize="15dp" />
+
+            </GridLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
+
